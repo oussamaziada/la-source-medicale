@@ -7,7 +7,7 @@ class CreatePhotoDto {
   url: string;
 }
 
-export class AddProductDto {
+export class UpdateProductDto {
   @IsOptional()
   @IsString()
   name: string;

@@ -3,7 +3,7 @@ import { Photo } from './photo.entity';
 import { CategoryEnum } from './enums/category.enum';
 
 @Entity()
-export class Product {
+export class ProductEntity {
   @PrimaryGeneratedColumn()
   id: number;
 
